@@ -10,7 +10,6 @@ type UserRegister struct {
 	updatedAt      int 	`json:"updated_at"`
 }
 
-
 type UserProfileUpdate struct {
 	Name string    `json:"name"`
 	About string    `json:"about"`		
